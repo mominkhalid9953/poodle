@@ -11,7 +11,10 @@ body div{
 }
 
 .topRight{
+	position: absolute;
+	top: 0;
+	right: 0;
 	display: block;
-	align-items:flex-end
+	align-items: flex-end;
 	
 }
