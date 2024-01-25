@@ -12,5 +12,6 @@
 
 .topRight{
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-start;
+
 }
