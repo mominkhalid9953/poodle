@@ -5,8 +5,9 @@ body{
 	display: flex;
 }
 .middle{
-	display: flexbox;
+	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	column-gap: 10px;
 	padding: 10px;
