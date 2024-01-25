@@ -2,7 +2,7 @@
 	border-radius: 8px;
 }
 
-body div{
+.middle{
 	display: block;
 	align-items: center;
 	margin-left: 40%;
@@ -13,5 +13,4 @@ body div{
 .topRight{
 	display: flex;
 	align-items: flex-end;
-	
 }
