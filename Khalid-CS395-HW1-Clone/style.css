@@ -1,17 +1,19 @@
 .textBar{
 	border-radius: 8px;
 }
-
+body{
+	display: flex;
+}
 .middle{
-	display: block;
+	display: flexbox;
+	flex-direction: column;
 	align-items: center;
-	margin-left: 40%;
-	margin-top: 30%;
-
+	column-gap: 10px;
+	padding: 10px;
 }
 
 .topRight{
 	display: flex;
 	align-items: flex-start;
-
+	justify-content: end;
 }
