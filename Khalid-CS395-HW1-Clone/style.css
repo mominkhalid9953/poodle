@@ -1,29 +1,29 @@
-
-
-body {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0;
+.textBar{
+	border-radius: 8px;
 }
-
-.container {
+body{
 	display: flex;
-	justify-content: space-between;
+}
+.middle{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+input {
+	padding: 5px 10px; /* Adjust the padding as needed */
+	margin-right: 10px; /* Add some space between input elements */
+}
+
+.topRight{
+	display: flex;
 	align-items: center;
-	flex-direction: column;
-	column-gap: 10px;
-	padding: 10px;
-}
+	justify-content: center;
 
-.topRightContainer {
-	position: absolute;
-	top: 10px;
-	right: 10px;
 }
-
-.topRight {
-	margin-left: 20px;
-}
-
