@@ -17,8 +17,8 @@ body{
 }
 
 input {
-	padding: 5px 10px; /* Adjust the padding as needed */
-	margin-right: 10px; /* Add some space between input elements */
+	padding: 5px 10px; 
+	margin-right: 10px;
 }
 
 .topRight{
