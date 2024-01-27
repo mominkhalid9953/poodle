@@ -6,18 +6,35 @@
 
 	</head>
 	<body>
+		
+		
+		<div class="topRight">
+			<a href="imageSearch.html" class="links">Image search</a>
+			<a href="advancedSearch.html" class="links">Advanced Search</a>
+		</div>
+
+
 		<div class="middle">
 			<img src="assets/logo.png" alt="Picture of poodle logo">
 			<form action="https://www.google.com/search">
-				<input type="text" name="q">
-				<input type="submit" value="Poodle Search">
+			<input type="text" class="textBar" name="q">
+			<br>
+			<input type="submit" class="input" value="Poodle Search">
+			<input type="submit" class="input" value="I'm Feeling lucky" onclick="feelingLucky()">
 			</form>
 		</div>
 
-		<div class="topRight">
-			<a href="imageSearch.html" >Image search</a>
-			<a href="advancedSearch.html" >Advanced Search</a>
-		</div>
 
+
+
+
+
+		<script>
+			function feelingLucky() {
+			  var searchTerm = document.querySelector('.search-input').value;
+			  window.location.href = 'https://www.google.com/search?q=' + searchTerm;
+			}
+		  </script>
+		
 	</body>
 </html>
