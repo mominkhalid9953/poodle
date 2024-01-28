@@ -8,7 +8,10 @@ body{
 	
 	height: 100vh;
 	margin: 0;
+	
+	transition: background-color 0.3s ease;
 }
+
 
 
 .middle{
@@ -18,11 +21,17 @@ body{
 	align-items: center;
 	align-self: center;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 .links{
 	padding-left: 4%;
+	padding-right: 3%;
+	text-decoration: none;
+}
+
+.links:hover{
+	text-decoration:underline;
 }
 
 input {
@@ -41,5 +50,6 @@ input {
 
 .subheader{
 	font-size: large;
-	
+	font-weight: bolder;
+	display: flex;
 }

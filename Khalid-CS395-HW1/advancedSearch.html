@@ -9,36 +9,43 @@
 	<script src='main.js'></script>
 </head>
 <body>
+
+
 	<div class="topRight">
 		<a href="imageSearch.html" class="links">Image search</a>
-		<a href="advancedSearch.html" class="links">Advanced Search</a>
+		<a href="index.html" class="links">Poodle Search</a>
 	</div>
-	
-	
+
+
 	<div class="middle" >
-		<h1>Poodle Advanced Search</h1>
+		<img src="assets/logo.png" alt="Picture of poodle logo">
+
+		<div class="subheader">
+			Find pages with…
+		</div>
+
 		<form action="https://www.google.com/search" method="get">
-		<div class="search-input">
-			<label for="all-words"><div class="subheader">Find pages with…</div> <br>“all these words:”</label>
-			<input type="text" id="all-words" name="as_q">
+			<div>
+				<label for="all-words">all these words:</label>
+				<input type="text" id="all-words" name="as_q" class="textBar">
+			</div>
+
+		<div>
+			<label for="exact-phrase">this exact word or phrase:</label>
+			<input type="text" id="exact-phrase" name="as_epq" class="textBar">
 		</div>
 
-		<div class="search-input">
-			<label for="exact-phrase">“this exact word or phrase:”</label>
-			<input type="text" id="exact-phrase" name="as_epq">
+		<div>
+			<label for="any-words">any of these words:</label>
+			<input type="text" id="any-words" name="as_oq" class="textBar">
 		</div>
 
-		<div class="search-input">
-			<label for="any-words">“any of these words:”</label>
-			<input type="text" id="any-words" name="as_oq">
+		<div>
+			<label for="none-words">none of these words:</label>
+			<input type="text" id="none-words" name="as_eq" class="textBar">
 		</div>
 
-		<div class="search-input">
-			<label for="none-words">Find pages with… “none of these words:”</label>
-			<input type="text" id="none-words" name="as_eq">
-		</div>
-
-		<input type="submit" value="Poodle Advanced Search">
+		<input type="submit" value="Poodle Advanced Search" class="input">
 		</form>
 	</div>
 
