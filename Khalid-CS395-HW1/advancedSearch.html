@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+	<script src='main.js'></script>
 </head>
 <body>
-    
+	<div class="topRight">
+		<a href="imageSearch.html" class="links">Image search</a>
+		<a href="advancedSearch.html" class="links">Advanced Search</a>
+	</div>
+	
+	
+	<div class="middle" >
+		<h1>Poodle Advanced Search</h1>
+		<form action="https://www.google.com/search" method="get">
+		<div class="search-input">
+			<label for="all-words"><div class="subheader">Find pages with…</div> <br>“all these words:”</label>
+			<input type="text" id="all-words" name="as_q">
+		</div>
+
+		<div class="search-input">
+			<label for="exact-phrase">“this exact word or phrase:”</label>
+			<input type="text" id="exact-phrase" name="as_epq">
+		</div>
+
+		<div class="search-input">
+			<label for="any-words">“any of these words:”</label>
+			<input type="text" id="any-words" name="as_oq">
+		</div>
+
+		<div class="search-input">
+			<label for="none-words">Find pages with… “none of these words:”</label>
+			<input type="text" id="none-words" name="as_eq">
+		</div>
+
+		<input type="submit" value="Poodle Advanced Search">
+		</form>
+	</div>
+
 </body>
 </html>
